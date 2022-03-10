@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="999.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="-6.0" prefHeight="61.0" prefWidth="999.0" style="-fx-background-color: #01979B;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Text fill="WHITE" layoutX="213.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 20;" text="Bienvenu : ADMIN" wrappingWidth="219.0" />
+            <ImageView fitHeight="51.0" fitWidth="43.0" layoutX="949.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="7.0">
+               <image>
+                  <Image url="@../img/icone.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane layoutY="122.0" prefHeight="545.0" prefWidth="71.0" />
+      <AnchorPane layoutY="54.0" prefHeight="607.0" prefWidth="213.0" style="-fx-background-color: #01979B; -fx-border-color: #01979B;" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="54.0">
+         <children>
+            <VBox layoutX="-16.0" layoutY="103.0" prefHeight="463.0" prefWidth="219.0">
+               <children>
+                  <ButtonBar prefHeight="40.0" prefWidth="200.0">
+                     <buttons>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/pngeggaz.png" />
+                           </image>
+                        </ImageView>
+                        <Button accessibleRole="MENU_BUTTON" alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="40.0" prefWidth="177.0" style="-fx-background-color: none; -fx-font-size: 17; -fx-font-weight: bold;" text="Accueil" textFill="WHITE">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                     </buttons>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </ButtonBar>
+                  <ButtonBar prefHeight="40.0" prefWidth="0.0">
+                     <buttons>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/gcfbvj.png" />
+                           </image>
+                        </ImageView>
+                        <MenuButton alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="40.0" prefWidth="208.0" style="-fx-background-color: none; -fx-font-size: 17; -fx-font-weight: bold;" text="Clients" textFill="WHITE">
+                           <items>
+                              <MenuItem mnemonicParsing="false" text="Enregistrer Clients" />
+                              <MenuItem mnemonicParsing="false" text="Liste des Clients" />
+                           </items>
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </MenuButton>
+                     </buttons>
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </ButtonBar>
+                  <ButtonBar prefHeight="40.0" prefWidth="0.0">
+                     <buttons>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/edtrfh.png" />
+                           </image>
+                        </ImageView>
+                        <MenuButton alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="40.0" prefWidth="265.0" style="-fx-background-color: none; -fx-font-size: 17; -fx-font-weight: bold;" text="Conducteurs" textFill="WHITE">
+                           <items>
+                              <MenuItem mnemonicParsing="false" text="Enregistrer Conducteur" />
+                              <MenuItem mnemonicParsing="false" text="Liste des conducteurs" />
+                           </items>
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </MenuButton>
+                     </buttons>
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </ButtonBar>
+                  <ButtonBar prefHeight="40.0" prefWidth="0.0">
+                     <buttons>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/dfcgvbn.png" />
+                           </image>
+                        </ImageView>
+                        <MenuButton alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="40.0" prefWidth="263.0" style="-fx-background-color: none; -fx-font-size: 17; -fx-font-weight: bold;" text="Voitures" textFill="WHITE">
+                           <items>
+                              <MenuItem mnemonicParsing="false" text="Enregistrer Voitures" />
+                              <MenuItem mnemonicParsing="false" text="Listes des voitures" />
+                           </items>
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </MenuButton>
+                     </buttons>
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </ButtonBar>
+                  <ButtonBar prefHeight="44.0" prefWidth="0.0">
+                     <buttons>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/pngegg%20('').png" />
+                           </image>
+                        </ImageView>
+                        <MenuButton alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="44.0" prefWidth="265.0" style="-fx-background-color: none; -fx-font-size: 17; -fx-font-weight: bold;" text="Réservations" textFill="WHITE">
+                           <items>
+                              <MenuItem mnemonicParsing="false" text="Enregistrer réservation" />
+                              <MenuItem mnemonicParsing="false" text="Liste des réservations" />
+                           </items>
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </MenuButton>
+                     </buttons>
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </ButtonBar>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="213.0" layoutY="55.0" prefHeight="61.0" prefWidth="786.0" style="-fx-background-color: #ffffff;" AnchorPane.leftAnchor="213.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Text fill="#01979b" layoutX="60.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 20;" text="Conducteur -Informations du conducteur" wrappingWidth="391.0" />
+            <Button layoutX="539.0" layoutY="8.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="108.0" style="-fx-font-size: 20; -fx-background-color: none; -fx-border-color: #00bc58;" text="Valider" textFill="#00bc58" AnchorPane.rightAnchor="139.0" />
+            <Button layoutX="667.0" layoutY="8.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="108.0" style="-fx-font-size: 20; -fx-background-color: none; -fx-border-color: #d72b09;" text="Annuler" textFill="#d72b09" AnchorPane.rightAnchor="11.0" />
+            <ImageView fitHeight="51.0" fitWidth="43.0" layoutX="10.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/pngegg%20(2).png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Text fill="#01979b" layoutX="220.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 20;" text="INFORMATIONS DU CONDUCTEUR" wrappingWidth="319.0" />
+      <TextField layoutX="362.0" layoutY="237.0" prefHeight="31.0" prefWidth="343.0" AnchorPane.leftAnchor="362.0" AnchorPane.rightAnchor="294.0" />
+      <TextField layoutX="362.0" layoutY="365.0" prefHeight="31.0" prefWidth="343.0" AnchorPane.leftAnchor="362.0" AnchorPane.rightAnchor="294.0" />
+      <TextField layoutX="362.0" layoutY="301.0" prefHeight="31.0" prefWidth="343.0" AnchorPane.leftAnchor="362.0" AnchorPane.rightAnchor="294.0" />
+      <TextField layoutX="362.0" layoutY="430.0" prefHeight="31.0" prefWidth="343.0" AnchorPane.leftAnchor="362.0" AnchorPane.rightAnchor="294.0" />
+      <Separator layoutX="213.0" layoutY="120.0" prefHeight="4.0" prefWidth="786.0" AnchorPane.leftAnchor="213.0" AnchorPane.rightAnchor="0.0" />
+      <Label layoutX="220.0" layoutY="238.0" style="-fx-font-size: 20;" text="Nom :" />
+      <Label layoutX="220.0" layoutY="302.0" style="-fx-font-size: 20;" text="Prenom :" />
+      <Label layoutX="220.0" layoutY="366.0" style="-fx-font-size: 20;" text="Téléphone" />
+      <Label layoutX="221.0" layoutY="431.0" style="-fx-font-size: 20;" text="Tarif :" />
+      <AnchorPane prefHeight="173.0" prefWidth="206.0">
+         <children>
+            <ImageView fitHeight="153.0" fitWidth="195.0" layoutX="3.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/LOCAR.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
